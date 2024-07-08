@@ -1,0 +1,168 @@
+/* google fonts linking here */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+Position
+/* ************************
+****    Global CSS     ****
+***************************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Open Sans", sans-serif;
+}
+p{
+    font-family: "Open Sans", sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/* ************
+HEADER START
+*************** */
+/* .navbar-toggler{
+    display: flex;
+    justify-content: center;
+    flex-basis: auto;
+ } */
+.nav-link,.dropdown-item{
+    color: #007bff;
+    font-size: 17px;
+    font-weight: 400;
+    transition-duration: .4s;   
+}
+
+.nav-link,.nav-link{
+    color: #007bff;
+    margin-left: 10px;  
+}
+.nav-link:hover ,.dropdown-item:hover{
+    color: #00AEEF;
+}
+
+
+.menu-buttons .btn{
+    padding: 12px 20px;
+    border-radius: 0px;
+    font-size: 16px;
+    background-color: #0e72cc;
+    color: white;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    line-height: 1;
+    transition: 0.4s;
+    -webkit-font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+}
+.menu-buttons .btn:hover{
+    background-color: #00AEEF;
+    transition: 0.4s
+}
+.menu-buttons .btn i{
+    margin-right: 5px;
+ }
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* Navbar */
+/* ************
+HEADER END
+*************** *//* ******************
+SIGNIN SECTION START
+********************* */
+.banner .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 250px;
+    display: block;
+}
+
+ .banner .container .row .signin-box h2{
+    font-size: 34px;
+    color: #0e72cc;
+    line-height: 1.35em;
+    font-weight: 700;
+    margin: 0;
+ }
+ .banner .container .row .signin-box p{
+    margin: 0 0 30px;
+    line-height: 1.8em;
+    color: #9b9b9b;
+    font-size: 18px;
+    font-weight: 500;
+ }
+ 
+ .banner .container .row .form-floating{
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+ }
+
+.form-floating .btn{
+    margin-top: 10px;
+    background-color: #0e72cc;
+    color: white;
+    position: relative;
+    background: #0e72cc;
+    color: #fff;
+    border-radius: 0;
+    font-size: 18px;
+    padding: 11px 50px;
+    z-index: 1;
+    transition: 0.4s
+ }
+ .form-floating .btn:hover{
+    background-color: #00AEEF;
+    transition: 0.4s
+ }
+
+ .extra-info {
+    margin-top: 30px;
+}
+.extra-info ul{
+    list-style: none;
+}
+.extra-info ul li{
+    text-transform: capitalize;
+    color: #0e72cc;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.extra-info ul li a{
+    text-transform: capitalize;
+    color: #0e72cc;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.4s
+}
+.extra-info ul li:hover{
+    color: #00AEEF;
+    transition: 0.4s
+}
+
+
+/* ******************
+SIGNIN SECTION END
+********************* */
